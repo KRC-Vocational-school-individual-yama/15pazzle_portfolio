@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\main\winmain.cpp">
+      <Filter>mains</Filter>
+    </ClCompile>
+    <ClCompile Include="source\game.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\panel.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\user.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\board.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\game.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\panel.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\user.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\board.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\library\includer.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mains">
+      <UniqueIdentifier>{61e657b5-09cb-41dd-9b2f-2b22b4e1c4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{768e2e3c-9694-4f87-9dde-f772f96706ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library">
+      <UniqueIdentifier>{c186d65e-9476-4e58-8ee4-5da04ee80695}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
